@@ -1,0 +1,62 @@
+.csParent{
+    background-color: white;
+}
+
+.csContainer{
+    color: white;
+    min-height: 95vh;
+    /* flex-direction: column; */
+    text-align: right;
+    /* border: 1px solid blue; */
+    margin: 0;
+    padding: 0;
+    column-gap: 0;
+
+
+}
+
+.csBannerText{
+    margin: 0;
+    background-color: #E95546;
+    height: 95vh;
+    width: 45vw;
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 30px;
+
+}
+
+.csBannerImage{
+    margin: 0;
+    height: 95vh;
+    padding: 10rem;
+    width: 55vw;
+    background-color: #2D2258;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 30px;
+}
+
+.csSection{
+    color: white;
+    background-color: #E95546;
+    margin: 0;
+    min-height: 100vh;
+    width: 100%;
+    padding: 0 10rem;
+}
+
+.csSection:nth-child(even){
+    background-color: #2D2258;
+}
+
+@media (max-width: 768px) {
+    .csSection{
+        padding: 0 4rem;
+    }
+}
