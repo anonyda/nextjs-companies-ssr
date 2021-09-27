@@ -1,0 +1,43 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    /* max-width: 250px; */
+    width: 500px;
+    height: fit-content;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    overflow: hidden;
+    padding: 0.75rem 0.5rem
+}
+
+.cardBody{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+}
+
+.cardTitle{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0.25rem 0;
+}
+
+.cardText{
+    line-height: 25px;
+}
+
+@media (max-width: 563px) {
+    .container{
+        width: 90%;
+    }
+
+    /* .cardTitle{
+        font-size: 0.5rem;
+    } */
+}
